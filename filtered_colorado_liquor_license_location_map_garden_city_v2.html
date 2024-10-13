@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2c9b6fd22ccb9c0ca0a3251e24ac3170 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2c9b6fd22ccb9c0ca0a3251e24ac3170" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2c9b6fd22ccb9c0ca0a3251e24ac3170 = L.map(
+                "map_2c9b6fd22ccb9c0ca0a3251e24ac3170",
+                {
+                    center: [40.4233, -104.7112],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_169ddf334ae36550cbedddda049b516a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_169ddf334ae36550cbedddda049b516a.addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var marker_01f037f5282997e466ac2a1aaee824dc = L.marker(
+                [40.39685699, -104.686319001],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_96605ed9c06590f43aa525377421ecfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_01f037f5282997e466ac2a1aaee824dc.setIcon(icon_96605ed9c06590f43aa525377421ecfe);
+        
+    
+        var popup_c3c8f413b5c048252ef31f19e77b7f48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_489dc9a7eaaaf2f4fdbd4171cdad840d = $(`<div id="html_489dc9a7eaaaf2f4fdbd4171cdad840d" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>EL RODEO</strong><br>     <b>License Type:</b><br>Tavern (city<br>     <b>Address:</b><br>510 25TH STREET<br>     Garden City, CO 80631<br>     </div>`)[0];
+                popup_c3c8f413b5c048252ef31f19e77b7f48.setContent(html_489dc9a7eaaaf2f4fdbd4171cdad840d);
+            
+        
+
+        marker_01f037f5282997e466ac2a1aaee824dc.bindPopup(popup_c3c8f413b5c048252ef31f19e77b7f48)
+        ;
+
+        
+    
+    
+            var marker_5229525d750248d4e5174957a5e30f0d = L.marker(
+                [40.39481201, -104.686806996],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_b5881061f94ff86d120991861b9170d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5229525d750248d4e5174957a5e30f0d.setIcon(icon_b5881061f94ff86d120991861b9170d0);
+        
+    
+        var popup_e72153ca7ca9c0e928dd793d56371d54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4371d2d551b5cff1e9cbb20662a33ee7 = $(`<div id="html_4371d2d551b5cff1e9cbb20662a33ee7" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>EL PATRONS NITECLUB</strong><br>     <b>License Type:</b><br>Tavern (city<br>     <b>Address:</b><br>2630 6TH AVENUE<br>     Garden City, CO 80631<br>     </div>`)[0];
+                popup_e72153ca7ca9c0e928dd793d56371d54.setContent(html_4371d2d551b5cff1e9cbb20662a33ee7);
+            
+        
+
+        marker_5229525d750248d4e5174957a5e30f0d.bindPopup(popup_e72153ca7ca9c0e928dd793d56371d54)
+        ;
+
+        
+    
+    
+            var marker_d341d600ac4f904f13322335df0a66db = L.marker(
+                [43.63395298, -116.25337296],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_d3ab59f928e82767c5df102ddc3f7e52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d341d600ac4f904f13322335df0a66db.setIcon(icon_d3ab59f928e82767c5df102ddc3f7e52);
+        
+    
+        var popup_f5280e5f0d735a4363b50c02832e57fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5bbbdbcc2aff702ed64c652d587795a = $(`<div id="html_e5bbbdbcc2aff702ed64c652d587795a" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>CINDER</strong><br>     <b>License Type:</b><br>Winery Direct Shipper's Permit<br>     <b>Address:</b><br>107 EAST 44TH STREET<br>     Garden City, ID 83714<br>     </div>`)[0];
+                popup_f5280e5f0d735a4363b50c02832e57fc.setContent(html_e5bbbdbcc2aff702ed64c652d587795a);
+            
+        
+
+        marker_d341d600ac4f904f13322335df0a66db.bindPopup(popup_f5280e5f0d735a4363b50c02832e57fc)
+        ;
+
+        
+    
+    
+            var marker_be7e73a3f809b3b71f1f988e7a007512 = L.marker(
+                [40.394371, -104.690862999],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_645505c2cd736e4df8699a454ec68275 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_be7e73a3f809b3b71f1f988e7a007512.setIcon(icon_645505c2cd736e4df8699a454ec68275);
+        
+    
+        var popup_a8c4248b3cb112590fbac8a2217c6fc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f30a9fd50a85a773412bfda8cabb175 = $(`<div id="html_7f30a9fd50a85a773412bfda8cabb175" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>EMPIRE STATE PIZZA</strong><br>     <b>License Type:</b><br>Takeout & Delivery Permit<br>     <b>Address:</b><br>2700 S 8TH AVE<br>     Garden City, CO 806318414<br>     </div>`)[0];
+                popup_a8c4248b3cb112590fbac8a2217c6fc4.setContent(html_7f30a9fd50a85a773412bfda8cabb175);
+            
+        
+
+        marker_be7e73a3f809b3b71f1f988e7a007512.bindPopup(popup_a8c4248b3cb112590fbac8a2217c6fc4)
+        ;
+
+        
+    
+    
+            var marker_aac4edbd5bf7d73706f1b81b4ddc8953 = L.marker(
+                [40.393401, -104.690875991],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_d3810e7bf6c6104c0bb6fc80fc4021ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aac4edbd5bf7d73706f1b81b4ddc8953.setIcon(icon_d3810e7bf6c6104c0bb6fc80fc4021ea);
+        
+    
+        var popup_0f9ba16fc499b1e831a7ef5115c8c165 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb853b2bb223d7316f7a70f5501655e5 = $(`<div id="html_cb853b2bb223d7316f7a70f5501655e5" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>WHITE HORSE INN LLC</strong><br>     <b>License Type:</b><br>Tavern (city<br>     <b>Address:</b><br>2750 8TH AVENUE<br>     Garden City, CO 806318414<br>     </div>`)[0];
+                popup_0f9ba16fc499b1e831a7ef5115c8c165.setContent(html_cb853b2bb223d7316f7a70f5501655e5);
+            
+        
+
+        marker_aac4edbd5bf7d73706f1b81b4ddc8953.bindPopup(popup_0f9ba16fc499b1e831a7ef5115c8c165)
+        ;
+
+        
+    
+    
+            var marker_051f7823ad94326d3c732bdf0d34be17 = L.marker(
+                [40.394371, -104.690862999],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_870d1201af0a1c88a2c5e06cf36cde14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_051f7823ad94326d3c732bdf0d34be17.setIcon(icon_870d1201af0a1c88a2c5e06cf36cde14);
+        
+    
+        var popup_19d7ab357a7fcc8964f3e454ef4a381a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7a572994a62725bcfcfb806040b4e7e = $(`<div id="html_d7a572994a62725bcfcfb806040b4e7e" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>EMPIRE STATE PIZZA</strong><br>     <b>License Type:</b><br>Hotel & Restaurant (city<br>     <b>Address:</b><br>2700 S 8TH AVE<br>     Garden City, CO 806318414<br>     </div>`)[0];
+                popup_19d7ab357a7fcc8964f3e454ef4a381a.setContent(html_d7a572994a62725bcfcfb806040b4e7e);
+            
+        
+
+        marker_051f7823ad94326d3c732bdf0d34be17.bindPopup(popup_19d7ab357a7fcc8964f3e454ef4a381a)
+        ;
+
+        
+    
+    
+            var marker_85f78e0e72d8c5943f42e904c3f29766 = L.marker(
+                [40.39689102, -104.689158036],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_a9f13a7bc3d3742501f0cf9a6ca0b909 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_85f78e0e72d8c5943f42e904c3f29766.setIcon(icon_a9f13a7bc3d3742501f0cf9a6ca0b909);
+        
+    
+        var popup_694aa2bbb8994708a725c6e797cfbf33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbada5d25b3f15a1fb2cfd7d51d84326 = $(`<div id="html_dbada5d25b3f15a1fb2cfd7d51d84326" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>EL BANDIDO NIGHTCLUB</strong><br>     <b>License Type:</b><br>Tavern (city<br>     <b>Address:</b><br>618 25TH STREET<br>     Garden City, CO 80631<br>     </div>`)[0];
+                popup_694aa2bbb8994708a725c6e797cfbf33.setContent(html_dbada5d25b3f15a1fb2cfd7d51d84326);
+            
+        
+
+        marker_85f78e0e72d8c5943f42e904c3f29766.bindPopup(popup_694aa2bbb8994708a725c6e797cfbf33)
+        ;
+
+        
+    
+    
+            var marker_c56b16d3210fe3435d4edd38d5ade2f8 = L.marker(
+                [43.62303798, -116.23514802],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_ac7a5122fd03bcbd52c464f62362383a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c56b16d3210fe3435d4edd38d5ade2f8.setIcon(icon_ac7a5122fd03bcbd52c464f62362383a);
+        
+    
+        var popup_5901c35297b4f009f177c1455c00ab91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7958d4089142bc3b6d385da2a516c2e4 = $(`<div id="html_7958d4089142bc3b6d385da2a516c2e4" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>TELAYA WINE CO</strong><br>     <b>License Type:</b><br>Winery Direct Shipper's Permit<br>     <b>Address:</b><br>240 EAST 32ND STREET<br>     Garden City, ID 83714<br>     </div>`)[0];
+                popup_5901c35297b4f009f177c1455c00ab91.setContent(html_7958d4089142bc3b6d385da2a516c2e4);
+            
+        
+
+        marker_c56b16d3210fe3435d4edd38d5ade2f8.bindPopup(popup_5901c35297b4f009f177c1455c00ab91)
+        ;
+
+        
+    
+    
+            var marker_f6c90aac9d4feff7de4ba1a74b4542c1 = L.marker(
+                [40.396456, -104.689376971],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_0ac297e076d8b743a4c35d6d34426675 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6c90aac9d4feff7de4ba1a74b4542c1.setIcon(icon_0ac297e076d8b743a4c35d6d34426675);
+        
+    
+        var popup_121bbec22e85008c1eca8458e295bd4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cc36bfdd0ebd3b3469d958e21e92eec = $(`<div id="html_9cc36bfdd0ebd3b3469d958e21e92eec" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>PIONEER GREELEY POST 2121</strong><br>     <b>License Type:</b><br>Tavern (city<br>     <b>Address:</b><br>2514 7TH AVE<br>     Garden City, CO 80631<br>     </div>`)[0];
+                popup_121bbec22e85008c1eca8458e295bd4e.setContent(html_9cc36bfdd0ebd3b3469d958e21e92eec);
+            
+        
+
+        marker_f6c90aac9d4feff7de4ba1a74b4542c1.bindPopup(popup_121bbec22e85008c1eca8458e295bd4e)
+        ;
+
+        
+    
+    
+            var marker_4520bcb9d58a4a7f70e082304b51a3f2 = L.marker(
+                [40.394371, -104.69085797],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_0d9289fb2fe9daa3003f8f35ed252067 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4520bcb9d58a4a7f70e082304b51a3f2.setIcon(icon_0d9289fb2fe9daa3003f8f35ed252067);
+        
+    
+        var popup_8a0bf23d762ef16565c8dd6aa21a4311 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_079721759b8ae5bccb57d2e02fab192f = $(`<div id="html_079721759b8ae5bccb57d2e02fab192f" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>8TH AVE WING SHACK</strong><br>     <b>License Type:</b><br>Takeout & Delivery Permit<br>     <b>Address:</b><br>2704 S 8TH AVE<br>     Garden City, CO 806318414<br>     </div>`)[0];
+                popup_8a0bf23d762ef16565c8dd6aa21a4311.setContent(html_079721759b8ae5bccb57d2e02fab192f);
+            
+        
+
+        marker_4520bcb9d58a4a7f70e082304b51a3f2.bindPopup(popup_8a0bf23d762ef16565c8dd6aa21a4311)
+        ;
+
+        
+    
+    
+            var marker_51d927f8e0bee882e145b7f22082b6cf = L.marker(
+                [40.395112, -104.691894979],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_64dd50cf706e63a12cea431e0d41540e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51d927f8e0bee882e145b7f22082b6cf.setIcon(icon_64dd50cf706e63a12cea431e0d41540e);
+        
+    
+        var popup_fefd2d05e46b052e01abf23aa3d49425 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66448215222dab58b0f06bc9a92e1980 = $(`<div id="html_66448215222dab58b0f06bc9a92e1980" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>EVERYDAY STORES #5709</strong><br>     <b>License Type:</b><br>Fermented Malt Beverage and Wine (city<br>     <b>Address:</b><br>2603 8TH AVE<br>     Garden City, CO 806318411<br>     </div>`)[0];
+                popup_fefd2d05e46b052e01abf23aa3d49425.setContent(html_66448215222dab58b0f06bc9a92e1980);
+            
+        
+
+        marker_51d927f8e0bee882e145b7f22082b6cf.bindPopup(popup_fefd2d05e46b052e01abf23aa3d49425)
+        ;
+
+        
+    
+    
+            var marker_9586bf5f33b2af1dfb77c90a0c72d5bc = L.marker(
+                [40.394371, -104.69085797],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_54b598ad09e7ca336bdbc6758ed734c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9586bf5f33b2af1dfb77c90a0c72d5bc.setIcon(icon_54b598ad09e7ca336bdbc6758ed734c5);
+        
+    
+        var popup_8626f945bce81773f3156d8e4f686add = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_993f121db4a61dce42fc93a8a5746d22 = $(`<div id="html_993f121db4a61dce42fc93a8a5746d22" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>8TH AVE WING SHACK</strong><br>     <b>License Type:</b><br>Hotel & Restaurant (city<br>     <b>Address:</b><br>2704 S 8TH AVE<br>     Garden City, CO 806318414<br>     </div>`)[0];
+                popup_8626f945bce81773f3156d8e4f686add.setContent(html_993f121db4a61dce42fc93a8a5746d22);
+            
+        
+
+        marker_9586bf5f33b2af1dfb77c90a0c72d5bc.bindPopup(popup_8626f945bce81773f3156d8e4f686add)
+        ;
+
+        
+    
+    
+            var marker_2137254314ba7e44105897139013c225 = L.marker(
+                [40.392653, -104.691526007],
+                {}
+            ).addTo(map_2c9b6fd22ccb9c0ca0a3251e24ac3170);
+        
+    
+            var icon_322e9b348483342c1713ad7f77cf5cbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2137254314ba7e44105897139013c225.setIcon(icon_322e9b348483342c1713ad7f77cf5cbd);
+        
+    
+        var popup_ffcff711313397f6e8337d298719e658 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17e6c37a0777829d4241b9f3e4f231b2 = $(`<div id="html_17e6c37a0777829d4241b9f3e4f231b2" style="width: 100.0%; height: 100.0%;">     <strong>DBA:<br>TAQUERIA RANCHO ALEGRE</strong><br>     <b>License Type:</b><br>Hotel & Restaurant (city<br>     <b>Address:</b><br>2729 8TH AVE<br>     Garden City, CO 80631<br>     </div>`)[0];
+                popup_ffcff711313397f6e8337d298719e658.setContent(html_17e6c37a0777829d4241b9f3e4f231b2);
+            
+        
+
+        marker_2137254314ba7e44105897139013c225.bindPopup(popup_ffcff711313397f6e8337d298719e658)
+        ;
+
+        
+    
+</script>
+</html>
